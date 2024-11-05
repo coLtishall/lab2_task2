@@ -53,6 +53,7 @@ class Solution11 {
                     --third;
                 }
                 // 如果指针重合，随着 b 后续的增加
+                //好呀好呀，我就是要测试一下这个地方的代码
                 // 就不会有满足 a+b+c=0 并且 b<c 的 c 了，可以退出循环
                 if (second == third) {
                     break;
